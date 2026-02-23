@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  medgemma:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      - MedGemma_Challenge_Kaggle=${MedGemma_Challenge_Kaggle}
+    volumes:
+      - ./cache:/tmp/model_cache
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
