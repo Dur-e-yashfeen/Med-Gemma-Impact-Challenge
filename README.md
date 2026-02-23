@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-blue)](https://huggingface.co/spaces/yashfy/medgemma-impact-challenge))
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/Dur-e-yashfeen/Med-Gemma-Impact-Challenge))
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-blue)](https://huggingface.co/spaces/yashfy/medgemma-impact-challenge)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/Dur-e-yashfeen/Med-Gemma-Impact-Challenge)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red)](https://pytorch.org/)
@@ -12,7 +12,7 @@
 **Medical Image Analysis powered by Google's Med-Gemma 1.5**  
 *Upload X-rays, CT scans, or MRIs to get AI-generated clinical reports*
 
-[Live Demo](https://huggingface.co/spaces/yashfy/medgemma-impact-challenge)) • 
+[Live Demo](https://huggingface.co/spaces/yashfy/medgemma-impact-challenge) • 
 [Report Bug]([https://github.com/yashfy/medgemma-impact-challenge/issues]) • 
 [Request Feature](https://github.com/yashfy/medgemma-impact-challenge/issues)
 
