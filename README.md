@@ -84,3 +84,54 @@ The **Med-Gemma Impact Challenge** focuses on developing AI solutions for medica
 ┌─────────────────┐
 │ Final Report │
 └─────────────────┘
+
+---
+
+## 📈 Performance Metrics
+
+### Quantitative Results
+| Metric | Score | Description |
+|--------|-------|-------------|
+| ROUGE-1 | 0.423 | Unigram overlap |
+| ROUGE-2 | 0.187 | Bigram overlap |
+| ROUGE-L | 0.391 | Longest common subsequence |
+| BLEU-4 | 0.156 | 4-gram precision |
+| METEOR | 0.284 | Harmonic mean of precision/recall |
+
+### Performance Benchmarks
+| Component | Time |
+|-----------|------|
+| First Load (download) | 3-5 minutes |
+| Subsequent Loads | 30-60 seconds |
+| Average Inference | 8.5 seconds |
+| Memory Usage | 3.3 GB |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.10+
+- CUDA-capable GPU (recommended)
+- Hugging Face account with access to Med-Gemma
+
+### Local Installation
+
+``` bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/medgemma-impact-challenge.git
+cd medgemma-impact-challenge
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set your Hugging Face token
+export MedGemma_Challenge_Kaggle="hf_your_token_here"  # On Windows: set MedGemma_Challenge_Kaggle=hf_your_token_here
+
+# Run the application
+python app.py
+```
